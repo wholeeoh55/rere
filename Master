@@ -1,0 +1,13 @@
+
+s = raw_input("Enter the String bro:  ")
+
+
+print len(s.split())
+print len(s)
+s.strip()
+count = 0
+for i in s:
+    if i.isupper():
+        count = count + 1
+    
+print count
