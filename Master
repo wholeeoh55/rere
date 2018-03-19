@@ -1,9 +1,17 @@
+#this is the main string 
 
 s = raw_input("Enter the String bro:  ")
 
+#prints word count
 
 print len(s.split())
+
+#prints letter count
+
 print len(s)
+
+#prints num of capital letters 
+
 s.strip()
 count = 0
 for i in s:
